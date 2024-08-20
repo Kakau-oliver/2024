@@ -16,6 +16,17 @@ Placeholder="insira a nota2">
 <script>
   funcion cacular(){
   var N1, N2, média;
-    
+ N1=document.getElementByid ('nota1').value;
+ N2=document.getElementById ('nota2').value;
+Media= (parseFloat(N1)+parseFloat(N2))/2
+document.getElementById('status').innerHTML="Reprovado"
+  }else
+document.getElementById('status').innerHTML="Aprovado"
+
+
+
+
+
+
 </body>
 </html>
